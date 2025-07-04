@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+ font-family: "Fredoka", sans-serif;
+ font-style: normal;
+ 
+}
+
+body{
+    font-family:"Fredoka", sans-serif;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+.container{
+    width: 600px;
+    height: 3000px;
+    margin: 0 auto;
+    background: rgba(166, 212, 141, 0.5) ;
+    padding: 8px 15px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 850px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+}
+
+/*Header Design starts*/
+
+.header{
+    width: 93%;
+    height: 80px;
+    background-color: #0A1E1D;
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+}
+
+.header .logo{
+    width: 223px;
+    height: 68px;
+    background-image: url("images/Logo_with font2.png");
+    background-repeat: no-repeat;
+    background-position: 9px 0px;
+    background-size: 186px;
+    margin-top: 7px;
+}
+
+.links ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.links ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #A6D48D;
+    font-weight: 300;
+    padding-right: 6px;
+   
+}
+
+.links ul li a:hover{
+     cursor: pointer;
+     color: #F5F5F5;
+}
+
+/*Header Design ends*/
+
+/*Banner design starts*/
+
+.banner{
+   width: 100%;
+   height: 785px;
+   background-image: url("images/banner1.png");
+   background-repeat: no-repeat;
+   background-position: -28px 0px;
+   background-size: 642px;
+   padding-top: 1px;
+}
+
+.banner h1{
+    font-size: 44px;
+    font-weight: 500;
+    color: #0A1E1D;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.banner h1 span{
+    font-size: 32px;
+    font-weight: 400;    
+    
+}
+
+.banner .subtitle{
+    position: absolute;
+    top: 670px;
+    left: 510px;
+    text-align: center;
+    
+}
+
+.banner .subtitle h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: #0A1E1D;
+    margin: 0;
+    line-height: 50px;
+}
+
+.banner .subtitle p{
+    margin: 0;
+    line-height: 24px;
+}
+
+.banner .subtitle p span{
+    color:#265656
+
+}
+
+.banner button{
+    background-color:#1D4E4B;
+    border-radius: 5px;
+    padding:8px 16px;
+    border: none;
+    font-size: 18px;
+    color: #F5F5F5;
+    font-weight: 400;
+    position: absolute;
+    top: 800px;
+    left: 617px;
+}
+
+.banner button:hover{
+    cursor: pointer;
+    background-color: #5BC3B0;
+}
+
+/*Banner design ends*/
+
+/*Main section starts*/
+
+.subscriber{
+    background-color: #F5F5F5;
+    padding: 40px 0;
+    width: 93%;
+    padding: 50px 21px; ;
+}
+
+.subscriber h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: #0A1E1D;
+    margin: 0;
+}
+
+.subscriber p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: justify;
+}
+
+.featured-pairings{
+    background-color: #fff;
+    padding-top: 1px;
+    width: 94%;
+    padding: 50px 18px;
+}
+
+.featured-pairings h2{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.featured-pairings .cards-wrapper{
+    height: 740px;
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.featured-pairings .cards-wrapper .card1{
+    width: 250px;
+    height: 360px;
+   
+}
+
+.card1 .img1{
+    width: 100%;
+    height: 185px;
+    background: rgba(166, 212, 141, 0.7) ;
+    background-image: url("images/pairing3.png");
+    background-repeat: no-repeat;
+    background-size: 278px;
+    background-position: -39px -44px;
+    border-radius: 10px ;
+    border: 1px solid #A6D48D;
+
+}
+
+.card1 .img2{
+    width: 100%;
+    height: 185px;
+    background: rgba(166, 212, 141, 0.7) ;
+    background-image: url("images/pairing4.png");
+    background-repeat: no-repeat;
+    background-size: 262px;
+    background-position: -29px -12px;
+    border-radius: 10px ;
+    border: 1px solid #A6D48D;
+
+}
+
+.card1 .img3{
+    width: 100%;
+    height: 185px;
+    background: rgba(166, 212, 141, 0.7) ;
+    background-image: url("images/pairing5.png");
+    background-repeat: no-repeat;
+    background-size: 238px;
+    background-position: -11px 4px;
+    border-radius: 10px ;
+    border: 1px solid #A6D48D;
+
+}
+
+.card1 .img4{
+    width: 100%;
+    height: 185px;
+    background: rgba(166, 212, 141, 0.7) ;
+    background-image: url("images/pairing6.png");
+    background-repeat: no-repeat;
+    background-size: 232px;
+    background-position: 2px 14px;
+    border-radius: 10px ;
+    border: 1px solid #A6D48D;
+
+}
+
+.card1 .title{
+    text-align: center;
+}
+
+.card1 .title h4{
+     font-size: 18px;
+     font-weight: 400;
+     margin: 18px 0;
+}
+
+.card1 .title p{
+    font-weight: 300;
+}
+
+.card1 button{
+    background-color:#1D4E4B;
+    border-radius: 5px;
+    padding: 5px 12px;
+    border: none;
+    font-size: 12px;
+    color: #F5F5F5;
+    font-weight: 400;
+    margin-left: 80px;
+}
+
+.card1 button:hover{
+    cursor: pointer;
+    background-color: #5BC3B0;
+}
+
+.featured-pairings a{
+    color: #0A1E1D;
+    margin: 0 215px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.featured-pairings a:hover{
+     color: #A6D48D;
+
+}
+
+.special-offerings{
+    background-color: #F5F5F5;
+    padding: 40px 0;
+    width: 93%;
+    padding: 50px 21px; 
+}
+
+.special-offerings h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #265656;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.special-offerings h3{
+    font-size: 34px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.special-offerings p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-top: 50px;
+    
+}
+
+.special-offerings p span{
+    font-weight: 400;
+    
+}
+
+/*Main section ends*/
+
+/*Footer starts*/
+
+.footer-section{
+    width: 93%;
+    padding: 50px 21px; 
+    background-color: #0A1E1D;
+}
+
+.footer-section .footer{
+    width: 100%;
+    text-align: center;
+}
+
+.follow-us h2{
+    font-size: 28px;
+    font-weight: 400;
+    color: #A6D48D; 
+}
+
+.follow-us .follow-us-icons{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 45px;
+
+}
+
+
+.follow-us .follow-us-icons .facebook{
+    width: 42px;
+    height: 43px;
+    background-image: url("images/icons8-facebook-48.png");
+    background-repeat: no-repeat;
+    background-position: -3px -2px;
+    background-size: 43px;
+}
+
+.follow-us .follow-us-icons .facebook:hover{
+    cursor: pointer;
+}
+
+.follow-us .follow-us-icons .instagram{
+    width: 42px;
+    height: 43px;
+    background-image: url("images/icons8-instagram-48.png");
+    background-repeat: no-repeat;
+    background-position: -3px -2px;
+    background-size: 43px;
+}
+
+.follow-us .follow-us-icons .instagram:hover{
+    cursor: pointer;
+}
+
+.follow-us .follow-us-icons .twitter{
+    width: 42px;
+    height: 43px;
+    background-image: url("images/icons8-twitter-48.png");
+    background-repeat: no-repeat;
+    background-position: -3px -2px;
+    background-size: 43px;
+}
+
+.follow-us .follow-us-icons .twitter:hover{
+    cursor: pointer;
+}
+
+.follow-us .follow-us-icons .youtube{
+    width: 42px;
+    height: 43px;
+    background-image: url("images/icons8-youtube-48.png");
+    background-repeat: no-repeat;
+    background-position: -3px -2px;
+    background-size: 43px;
+}
+
+.follow-us .follow-us-icons .youtube:hover{
+    cursor: pointer;
+}
+
+.footer p a{
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer p a:hover{
+    color: #A6D48D;
+}
+
+/*Footer ends*/
+
+
